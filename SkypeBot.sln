@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeBot", "SkypeBot\SkypeBot.csproj", "{1051E113-7A76-41D1-BF76-DC9A972F07E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeBot.Tests", "SkypeBot.Tests\SkypeBot.Tests.csproj", "{9664CDD9-6BE2-42E4-9618-EB4F72A05FF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1051E113-7A76-41D1-BF76-DC9A972F07E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1051E113-7A76-41D1-BF76-DC9A972F07E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1051E113-7A76-41D1-BF76-DC9A972F07E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1051E113-7A76-41D1-BF76-DC9A972F07E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9664CDD9-6BE2-42E4-9618-EB4F72A05FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9664CDD9-6BE2-42E4-9618-EB4F72A05FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9664CDD9-6BE2-42E4-9618-EB4F72A05FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9664CDD9-6BE2-42E4-9618-EB4F72A05FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
