@@ -21,6 +21,13 @@ namespace SkypeBot.Controllers
         [Route("v1/echo")]
         public override Task<HttpResponseMessage> ProcessMessagingEventAsync()
         {
+            /* Uncomment following lines to enable https verification for Azure.
+
+            if (!MtlsAuth.ValidateClientCertificate(Request.RequestUri.ToString(), Request.Headers, GetClientIp()))
+            {
+                return Task.FromResult(Request.CreateResponse(HttpStatusCode.Forbidden));
+            }
+            */
             return base.ProcessMessagingEventAsync();
         }
 
